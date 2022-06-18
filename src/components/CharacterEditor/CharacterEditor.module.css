@@ -1,6 +1,11 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  background: linear-gradient(
+    180deg,
+    transparent 40%,
+    hsl(195deg, 20%, 86%) 40%
+  );
 }
 
 .maxWidthWrapper {
@@ -8,6 +13,7 @@
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +30,14 @@
 }
 
 .characterWrapper {
+  min-height: 500px;
+  overflow-y: hidden;
+  top: 0;
+  right: 0;
+  padding-top: 128px;
+  position: fixed;
 }
 
 .controlColumn {
+  background: no-repeat bottom hsl(195deg, 20%, 86%);
 }
